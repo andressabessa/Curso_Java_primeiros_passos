@@ -1,0 +1,47 @@
+package exercicio_uri_1002;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class uri1002 {
+
+	private static final double R = 0;
+
+	public static void main(String[] args) {
+		//A fórmula para calcular a área de uma circunferência é: area = π . raio2. Considerando para este problema que π = 3.14159:
+		//Efetue o cálculo da área, elevando o valor de raio ao quadrado e multiplicando por π.
+
+		
+		Locale.setDefault(Locale.US);
+		//Comando utilizado para definir a localidade padrão da JVM (Java Virtual Machine) para a localidade dos Estados Unidos (US)
+		Scanner sc = new Scanner(System.in);
+		//O comando Scanner permite ler dados de diferentes fontes, como por exemplo: entrada do teclado.
+		
+		//Declaração das variáveis
+		double R, A, pi = 3.14159;
+		//double é um tipo de dado em Java que representa números de ponto flutuante de dupla precisão.
+		//raio, área e pi são variáveis do tipo double.
+		
+		 // Leitura do valor do raio
+        R = sc.nextDouble();
+        
+    
+        
+     // Cálculo da área
+        A = pi * R * R;
+        //A é uma variável que armazenará o resultado do cálculo da área
+        //pi é uma variável que contém a constante matemática π (pi), aproximadamente 3.14159
+        //R é a variável que contém o valor do raio da circunferência.
+        //R * R calcula o quadrado do raio
+        //pi * (R * R) multiplica o valor de pi pelo quadrado do raio.
+        	
+        // Impressão do resultado com 4 casas decimais
+        System.out.printf("A=%.4f%n", A);
+        		
+        // Fechamento do Scanner para liberar recursos
+        sc.close();
+       
+
+	}
+
+}

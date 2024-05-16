@@ -9,6 +9,7 @@ public class uri1001 {
 	//Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável X e pelo final de linha. 
 	//Cuide para que tenha um espaço antes e depois do sinal de igualdade
 	
+    
 	public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 	//O comando Scanner permite ler dados de diferentes fontes, como por exemplo: entrada do teclado.

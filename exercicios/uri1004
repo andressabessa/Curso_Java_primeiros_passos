@@ -1,0 +1,33 @@
+package exercicio_uri_1004;
+
+import java.util.Scanner;
+
+public class uri1004 {
+
+	public static void main(String[] args) {
+			//Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável PROD.
+			//A seguir mostre a variável PROD com mensagem correspondente.   
+			
+			
+			Scanner sc = new Scanner(System.in);
+			//O comando Scanner permite ler dados de diferentes fontes, como por exemplo: entrada do teclado.
+			
+			
+			int A = sc.nextInt();
+			int B = sc.nextInt();
+			//Esse comando lê cada valor inteiro digitado pelo usuário a partir da entrada padrão (teclado)
+			
+			
+			// Calculando a soma dos valores
+	        int PROD = A * B;
+	        
+	        //Imprimindo o resultado
+	        System.out.println("PROD = " + PROD);
+			
+	     // Fechando o scanner
+	        sc.close();
+			
+			
+		}
+
+	}

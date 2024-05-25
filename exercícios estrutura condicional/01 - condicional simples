@@ -1,0 +1,22 @@
+package exercicio_estrutura_condicional_simples;
+
+public class Main {
+
+	public static void main(String[] args) {
+			
+		int x = 5;
+		
+		System.out.println("Bom dia");
+		
+		if(x < 0) {
+			System.out.println("Boa tarde");
+		//Vamos colocar esse comando de "Boa tarde" dentro de uma estrutura condicional simples.
+		// Vamos dar um espaço do println para indiciar que ele está dentro da estrutura condicional.
+		// Chamamos de indentação tudo que tiver dentro da estrutura (inserir com recuo a direita para facilitar a leitura). 
+		
+		}
+		
+		System.out.println("Bom noite");
+	}
+
+}

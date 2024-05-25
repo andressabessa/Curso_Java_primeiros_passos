@@ -1,0 +1,36 @@
+package projeto_sistema_de_login;
+
+import java.util.Scanner;
+
+public class SistemaDeLogin {
+
+	public static void main(String[] args) {
+		
+	String usuarioCorreto = "admin";
+	String senhaCorreta = "45678";
+	
+	Scanner sc = new Scanner(System.in);
+	
+	//Entrada de dados do usuário
+	System.out.print("Digite o nome do usuário: ");
+	String usuario = sc.nextLine();
+	
+	System.out.print("Digite a senha: ");
+	String senha = sc.nextLine();
+	
+	//Verificação dos dados
+	
+	if (usuario.equals(usuarioCorreto)&& senha.equals(senhaCorreta)) {
+		System.out.println("Login realizado com sucesso! Bem-vindo! ");
+		
+	} else {
+		System.out.print("Nome do usuário ou senha incorretos. Tente novamente!");
+		
+	}
+	
+	sc.close();
+	
+
+	}
+
+}

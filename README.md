@@ -24,3 +24,7 @@ Este repositório é dedicado ao meu progresso e aprendizado na linguagem de pro
 ### Link para o curso:
 - [Java primeiros passos: Lógica de programação e algoritmos](https://www.udemy.com/course/java-curso-logica-de-programacao/?couponCode=KEEPLEARNING).
 - Instrutor: Nélio Alves.
+
+### Ferramentas e tecnologias que estão sendo utilizadas:
+
+<img src="https://skillicons.dev/icons?i=java,eclipse,git,github,vscode&theme=dark" />

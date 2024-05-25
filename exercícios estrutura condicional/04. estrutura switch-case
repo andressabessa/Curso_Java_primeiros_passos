@@ -1,0 +1,46 @@
+package exercicio_estrutura_condicional_switch_case;
+
+import java.util.Scanner;
+
+public class Switch {
+
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		//Vou ler o valor de x
+		String dia;
+		//Vou declarar a variável de dia
+		switch (x) {
+		//switch (x) significa que irei avaliar a expressão x (número que digitei)
+		//caso o valor de x seja 1 irei atribuir para a variável dia o valor 'domingo'
+		//no caso do swithc é obrigado usar a palavra 'break' no final de cada caso
+		case 1:
+		dia = "domingo";
+		break;
+		case 2:
+		dia = "segunda";
+		break;
+		case 3:
+		dia = "terca";
+		break;
+		case 4:
+		dia = "quarta";
+		break;
+		case 5:
+		dia = "quinta";
+		break;
+		case 6:
+		dia = "sexta";
+		break;
+		case 7:
+		dia = "sabado";
+		break;
+		default:
+		dia = "valor invalido";
+		break;
+		}
+		System.out.println("Dia da semana: " + dia);
+		sc.close();
+		}
+		}

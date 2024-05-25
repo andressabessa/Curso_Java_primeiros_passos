@@ -1,6 +1,6 @@
 # Curso Java primeiros passos: Lógica de programação e algoritmos
 
-Este repositório é dedicado ao meu progresso e aprendizado na linguagem de programação Java. Aqui, documentarei os exercícios e anotações que foram realizados durante o curso "Curso Java primeiros passos: Lógica de Programação e Algoritmos" do professor Nélio Alves.
+Este repositório é dedicado ao meu progresso e aprendizado na linguagem de programação Java. Aqui, documentarei os exercícios e anotações que foram realizados durante o curso "Java primeiros passos: Lógica de programação e algoritmos" do professor Nélio Alves.
 
 
   <img width="300" alt="image" src="https://logospng.org/download/java/logo-java-1536.png">

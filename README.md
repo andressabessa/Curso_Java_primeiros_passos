@@ -16,7 +16,7 @@ Este repositório é dedicado ao meu progresso e aprendizado na linguagem de pro
   - [x] Introdução sobre programação;
   - [x] Estrutura sequencial;
   - [x] Estrutura condicional;
-  - [ ] Estruturas repetivas;
+  - [ ] Estruturas repetitivas;
   - [ ] Vetores;
   - [ ] Matrizes;
   - [ ] Seção bônus.

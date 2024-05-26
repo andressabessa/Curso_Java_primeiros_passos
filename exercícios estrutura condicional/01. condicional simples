@@ -16,7 +16,7 @@ public class Main {
 		
 		}
 		
-		System.out.println("Bom noite");
+		System.out.println("Boa noite");
 	}
 
 }

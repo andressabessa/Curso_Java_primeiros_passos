@@ -16,10 +16,10 @@ Este repositório é dedicado ao meu progresso e aprendizado na linguagem de pro
   - [x] Introdução sobre programação;
   - [x] Estrutura sequencial;
   - [x] Estrutura condicional;
-  - [ ] Estruturas repetitivas;
-  - [ ] Vetores;
-  - [ ] Matrizes;
-  - [ ] Seção bônus.
+  - [x] Estruturas repetitivas;
+  - [x] Vetores;
+  - [x] Matrizes;
+  - [x] Seção bônus.
 
 ### Link para o curso:
 - [Java primeiros passos: Lógica de programação e algoritmos](https://www.udemy.com/course/java-curso-logica-de-programacao/?couponCode=KEEPLEARNING).
